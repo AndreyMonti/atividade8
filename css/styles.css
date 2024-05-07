@@ -1,0 +1,74 @@
+body,
+html{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+nav{
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .nav-links ul{
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav .nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav .nav-login {
+    background-color: black;
+}
+nav .nav-login a{
+
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: darkgray;
+}
+.secao{
+    border: solid 1px aliceblue;
+    height: 100%;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form{
+    background-color: gainsboro;
+    border-radius: 4px solid white;
+    width: 310px;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    padding: 20px;
+}
+input{
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+input [type=radio]{
+    width: auto;
+}
