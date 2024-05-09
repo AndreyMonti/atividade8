@@ -3,7 +3,7 @@ html{
    margin: 0;
    padding: 0;
    height: 100%;
-   background-color: rgb(121, 121, 121);
+   background-color: rgb(121, 121, 121); 
 }
 nav{
     background-color: rgb(28, 51, 145);
@@ -42,8 +42,8 @@ a:hover{
 }
 .secao{
     border: solid 1px aliceblue;
-    height: 100%;
-    border-left: 0px;
+    height: 100vh;
+    border-left: 100vh;
 
 }
 footer{
@@ -51,9 +51,10 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: rgb(28, 51, 145);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 form{
     background-color: rgb(28, 51, 145);
@@ -95,7 +96,7 @@ input[type=radio] {
 #id-secao1{
     color: white;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 15px;
     text-align: justify;
     font-size: 30px;
 }
@@ -106,4 +107,13 @@ input[type=radio] {
     right: 0;
     margin-right: 200px;
     scale: 180%;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#intro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#id-secao2{
+    margin-left: 15px;
 }
