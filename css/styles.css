@@ -43,6 +43,7 @@ a:hover{
 .secao{
     border: solid 1px aliceblue;
     height: 100%;
+    border-left: 0px;
 
 }
 footer{
@@ -90,4 +91,19 @@ input[type=radio] {
     float: right;
     background-color: rgb(227, 204, 110);
     filter: invert(100%);
+}
+#id-secao1{
+    color: white;
+    align-items: center;
+    margin-left: 5%;
+    text-align: justify;
+    font-size: 30px;
+}
+#id-logosecao1{
+    filter: invert(100%);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    margin-right: 200px;
+    scale: 180%;
 }
