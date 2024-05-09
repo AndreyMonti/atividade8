@@ -6,7 +6,7 @@ html{
    background-color: rgb(121, 121, 121);
 }
 nav{
-    background-color: black;
+    background-color: rgb(28, 51, 145);
     padding: 20px 20px;
     color: white;
     display: flex;
@@ -30,7 +30,7 @@ nav .nav-links ul li a{
 }
 
 nav .nav-login {
-    background-color: black;
+    background-color: rgb(28, 51, 145);
 }
 nav .nav-login a{
 
@@ -83,4 +83,11 @@ label {
 input[type=radio] {
     width: auto;
     margin-right: 5px;
+}
+#id-logo{
+    width: 53px;
+    height: auto;
+    float: right;
+    background-color: rgb(227, 204, 110);
+    filter: invert(100%);
 }
